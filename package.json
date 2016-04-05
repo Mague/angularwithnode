@@ -1,0 +1,17 @@
+{
+  "name": "node_angular",
+  "version": "1.0.0",
+  "description": "MEAN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "mongo",
+    "express"
+  ],
+  "author": "Enmanuel Molina",
+  "license": "ISC"
+}
