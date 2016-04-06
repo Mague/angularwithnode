@@ -1,0 +1,15 @@
+.full_container{
+	padding-left: 0; 
+	padding-right: 0; 
+}
+
+.border_radius_none{
+	border-radius: 0;
+}
+
+.form_login{
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	padding: 1em;
+	color: white;
+}

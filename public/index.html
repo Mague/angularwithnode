@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="administracion">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mague.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.min.js"></script>
+</head>
+<body ng-controller="global as g">
+	<div class="container-fluid full_container">
+		<nav class="navbar navbar-inverse border_radius_none">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">NODE_ANGULAR</a>
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="#/">Inicio</a>
+					</li>
+					<li>
+						<a href="#/register">Registrarse</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="col-xs-12" ng-view>
+		
+	</div>
+	<script src="js/app.js"></script>
+</body>
+</html>
