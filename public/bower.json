@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "homepage": "https://github.com/Mague/angularwithnode",
+  "authors": [
+    "Enmanuel Molina <maguedeveloper@gmail.com>"
+  ],
+  "description": "Css y JavaScripts",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "css",
+    "javascript"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

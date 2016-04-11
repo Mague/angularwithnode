@@ -1,17 +1,7 @@
-var express=require('express');
-var path=require('path')
-var app=express();
+var http = require('http'),
+	config = require('./config'),
+	AppServer = require('./app/')
 
-app.use(express.static(path.join(__dirname,'./public')))
-
-app.get('/',function(req,res){
-	res.sendFile("index.html");
-});
-app.post('/login',function(req,res){
-	console.log("Peticion recibida")
-	res.json({user:"mague"})
-})
-
-app.listen(3000,function(){
-	console.log("Correiendo");
-})
+var app= new AppServer()
+var server = http.createServer(app.appServer)
+server.listen(config.port)
