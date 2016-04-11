@@ -4,4 +4,6 @@ var http = require('http'),
 
 var app= new AppServer()
 var server = http.createServer(app.appServer)
-server.listen(config.port)
+server.listen(config.port,function(){
+	console.log("http://localhost")
+})
